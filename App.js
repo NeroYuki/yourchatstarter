@@ -10,7 +10,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 app.get('/home', (req, res) => {
-    res.send("Hello world");
+    res.send("1a7b9e15a500a9752c55ead85bea1863");
 });
 
 app.get('/nganluong_1a7b9e15a500a9752c55ead85bea1863.html', (req, res) => {
