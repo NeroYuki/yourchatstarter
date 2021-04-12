@@ -12,6 +12,10 @@ const port = process.env.PORT || 5000;
 app.get('/home', (req, res) => {
     res.send("Hello world");
 });
+
+app.get('/nganluong_1a7b9e15a500a9752c55ead85bea1863.html', (req, res) => {
+    res.sendfile("./nganluong_1a7b9e15a500a9752c55ead85bea1863.html")
+});
     
 app.listen(port, () => {
     console.log(`Express running → PORT ${port}`);
