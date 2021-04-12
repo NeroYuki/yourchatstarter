@@ -13,8 +13,8 @@ app.get('/home', (req, res) => {
     res.send("1a7b9e15a500a9752c55ead85bea1863");
 });
 
-app.get('/nganluong_1a7b9e15a500a9752c55ead85bea1863.html', (req, res) => {
-    res.sendfile("./nganluong_1a7b9e15a500a9752c55ead85bea1863.html")
+app.get('/nganluong_d1bb2fac9ffe5e381d70ee797d5b07ad.html', (req, res) => {
+    res.sendfile("./nganluong_d1bb2fac9ffe5e381d70ee797d5b07ad.html")
 });
     
 app.listen(port, () => {
